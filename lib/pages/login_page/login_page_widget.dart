@@ -281,7 +281,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('HomePage');
+                          context.pushNamed('null');
                         },
                         child: Text(
                           'Criar Conta',
